@@ -13,7 +13,7 @@ public class HelloActor extends UntypedActor {
     private ActorRef nameActorRef;
 
     public HelloActor() {
-        log.info("HelloActor constructor");
+        log.info("MainActor constructor");
         nameActorRef = getContext().actorOf(Props.create(NameActor.class), "name-actor");
     }
 
