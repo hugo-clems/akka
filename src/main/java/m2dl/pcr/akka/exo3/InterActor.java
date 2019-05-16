@@ -1,4 +1,4 @@
-package m2dl.pcr.akka.stringservices;
+package m2dl.pcr.akka.exo3;
 
 import akka.actor.ActorRef;
 import akka.actor.UntypedActor;
